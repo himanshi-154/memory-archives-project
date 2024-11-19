@@ -7,7 +7,7 @@ function Header() {
     <header className="p-4 border-b border-gray-300 flex justify-between items-center">
       <h1  className="text-4xl">MEMORY & ARCHIVES PROJECT</h1>
       <nav className="space-x-4">
-          <a><Link to="/">Home</Link></a>
+          <a className="pop-text"><Link to="/">Home</Link></a>
           <a><Link to="/women">Women</Link></a>
           <a><Link to="/tawaiffs">Tawaiffs</Link></a>
           <a><Link to="/spies">Spies</Link></a>

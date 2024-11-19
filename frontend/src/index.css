@@ -18,6 +18,7 @@
 }
 
 a {
+  font-size: 1.1em;
   font-weight: 500;
   margin: 25px;
   color: #464343;
@@ -26,20 +27,81 @@ a:hover {
   color: rgb(204, 153, 51);
 }
 
+b{
+  font-weight: 500;
+  font-size: 2em;
+  color: rgb(143, 107, 35);
+}
+c{
+  font-weight: 500;
+  font-size: 1.5em;
+  color: rgb(143, 107, 35);
+}
+.background {
+  background-image: url('1.jpg');
+  background-position: center;
+  
+  height: 50vh; 
+  width: 100%;
+}
 body {
-  margin: 0;
   color: #464343;
   font-family: Alegreya;
   place-items: center;
   min-width: 100px;
-  min-height: 20vh;
 }
 
 h1 {
+  margin: 0px;
   font-size: 3.4em;
-  color: #000000;
+  color: rgb(117, 88, 29);
   font-family: Garamond;
 }
+.slider-container {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.post-card {
+  display: flex; /* Use flexbox to align image and content side by side */
+  flex-direction: row; /* Align items horizontally */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(136, 103, 38);
+  padding: 10px;
+  text-align: left;
+  margin: 5px;
+}
+
+.post-image {
+  width: 50%; /* Adjust the width of the image */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; /* Ensure the image maintains its aspect ratio */
+}
+
+.post-content {
+  width: 50%; /* Adjust the width of the content */
+  padding-left: 20px; /* Add space between the image and content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left; /* Center the content vertically */
+}
+
+.post-title {
+  font-size: 18px;
+  color: rgb(136, 103, 38);
+  margin-bottom: 10px;
+}
+
+.post-description {
+  font-size: 15px;
+  color: #000000;
+  width: 180%;
+}
+
 
 button {
   border-radius: 8px;

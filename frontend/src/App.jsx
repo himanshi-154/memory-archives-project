@@ -13,6 +13,9 @@ import Tawaiffs from './pages/Tawaiffs';
 import Spies from './pages/Spies';
 import Tribals from './pages/Tribals';
 import AboutUs from './pages/AboutUs';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
