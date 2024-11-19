@@ -20,7 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <Router>
-    <div className="bg-white text-gray-800 font-sans">
+    <div className="text-gray-800 font-sans">
       <Header />
       <MainContent/>
       <Routes>

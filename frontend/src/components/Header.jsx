@@ -12,7 +12,7 @@ function Header() {
           <a><Link to="/tawaiffs">Tawaiffs</Link></a>
           <a><Link to="/spies">Spies</Link></a>
           <a><Link to="/tribals">Tribals</Link></a>
-          <a><Link to="/about-us">About Us</Link></a>
+          <Link to="/about-us">About Us</Link>
         
       </nav>
     </header>
