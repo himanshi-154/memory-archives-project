@@ -40,7 +40,8 @@ c{
 .background {
   background-image: url('1.jpg');
   background-position: center;
-  
+  background-size: contain;
+  background-repeat: repeat;
   height: 50vh; 
   width: 100%;
 }
