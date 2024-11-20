@@ -66,7 +66,7 @@ h1 {
 .post-card {
   display: flex; /* Use flexbox to align image and content side by side */
   flex-direction: row; /* Align items horizontally */
-  background-color: #fff;
+  background-color: rgb(240, 228, 203);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgb(136, 103, 38);
   padding: 10px;

@@ -32,28 +32,21 @@ import React from "react";
 
 const Team = [
     {
-        name: "Dr. Manju Dhariwal",
+        name: "Dr. Payel Pal",
         role: "Professor (Department of Humanities and Social Sciences at LNMIIT)",
-        description: "Dean (International Student Enablement and Gender Sensitization)",
         // image: manju,
     },
     {
-        name: "Medhansh Sharma",
-        role: "Full stack Developer",
+        name: "Himanshi Sharma(21ucc052)",
+        role: "Full-stack Developer",
         description: "4th year student at LNMIIT",
         // image: medhansh,
     },
     {
-        name: "Devansh Jain",
-        role: "Full stack Developer",
+        name: "Lokesh Dandwani(21ucs118)",
+        role: "Front-end Developer",
         description: "4th year student at LNMIIT",
         // image: devansh,
-    },
-    {
-        name: "Yash Chugh",
-        role: "Frontend Developer",
-        description: "4th year student at LNMIIT",
-        // image: yash,
     },
 ];
 
@@ -69,10 +62,12 @@ const About = () => {
                         {/* Text Content */}
                         <div className="flex flex-col justify-center gap-4 md:gap-6">
                             <p className="text-lg lg:text-xl">
-                                <span className="font-bold">MindConnect</span> is a comprehensive platform dedicated to supporting college students in their mental health journey. We offer a safe and anonymous space where students can access a wide range of mental health resources, including the latest blogs, practical tips, and the opportunity to connect with professionals without revealing their identity.
                                 <br /><br />
-                                Our mission is to break the stigma around mental health issues by offering confidential support and tools, empowering students to navigate college life with confidence and resilience. At MindConnect, we’re here to help you prioritize your mental well-being and succeed both academically and personally.
-                            </p>
+                                Welcome to our Memory & Archives Project, a dedicated space for celebrating the often overlooked contributions of women and transgender individuals in India’s freedom struggle. Our team is passionate about uncovering and preserving the stories of unsung heroes, highlighting their sacrifices and resilience.
+
+Our project is conducted under the guidance of our esteemed mentor, Dr. Payel Pal, whose expertise and support have been invaluable. Together, we aim to bring history to life and inspire future generations by showcasing the courage and strength of these remarkable figures.
+
+Our goal is to create a rich, interactive archive that educates, engages, and honors the legacy of those who fought for our freedom.                            </p>
                         </div>
 
                         {/* Image Content */}
