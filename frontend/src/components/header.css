@@ -29,8 +29,8 @@
     font-size: 1rem;
     font-weight: 500;
     color: #555;
-    border: 2px solid black;
-    border-radius: 30%;
+    border: 2px solid rgb(117, 88, 29);
+    border-radius: 15%;
     padding: 3px;
     background-color: rgb(241, 230, 216);
     transition: color 0.3s ease, transform 0.3s ease; /* Add transform transition */
@@ -39,24 +39,24 @@
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    color: #555;
+    color: rgb(117, 88, 29);
     transition: color 0.3s ease, transform 0.3s ease; /* Add transform transition */
   }
   
   .nav-link:hover {
-    color: #007bff;
+    color:rgb(204, 153, 51);
     transform: translateY(-3px); /* Slight hover effect */
   }
   
   .icon {
     font-size: 1.2rem;
     vertical-align: middle;
-    color: #555;
+    color: rgb(117, 88, 29);
     transition: color 0.3s ease, transform 0.3s ease; /* Icon hover transition */
   }
   
   .icon:hover {
-    color: #007bff;
+    color:rgb(204, 153, 51);
     transform: translateY(-3px); /* Slight hover effect for icon */
   }
   
