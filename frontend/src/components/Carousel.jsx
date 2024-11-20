@@ -9,7 +9,8 @@ const Carousel = () => {
     { id: 1, 
       image: "i.jpg", 
       title: "Rani Laxmi Bai : The Warrior Queen", 
-      description: " A key leader in the 1857 Indian Rebellion, she led her troops against British forces to defend Jhansi. She is known for her bravery in battle, including her legendary escape from the fort on horseback with her infant son. She Formed alliances with other freedom fighters, such as Tatya Tope, and fought fiercely in the Battle of Gwalior. She Died in combat in 1858, refusing to surrender, and became a symbol of resistance against British rule. Her legacy continues to inspire generations, celebrated in literature, poetry, and Indian history." 
+      description: " A key leader in the 1857 Indian Rebellion, she led her troops against British forces to defend Jhansi. She is known for her bravery in battle, including her legendary escape from the fort on horseback with her infant son. She Formed alliances with other freedom fighters, such as Tatya Tope, and fought fiercely in the Battle of Gwalior. She Died in combat in 1858, refusing to surrender, and became a symbol of resistance against British rule. Her legacy continues to inspire generations, celebrated in literature, poetry, and Indian history." ,
+      link: "https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80_%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A5%80%E0%A4%AC%E0%A4%BE%E0%A4%88"
     },
 
 
@@ -56,6 +57,7 @@ const Carousel = () => {
             <div className="post-content">
               <h3 className="post-title">{post.title}</h3>
               <p className="post-description">{post.description}</p>
+              <a href={post.link} class="read-more-btn" target="_blank" rel="noopener noreferrer">Read More</a>
             </div>
           </div>
         ))}
