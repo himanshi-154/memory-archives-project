@@ -11,7 +11,6 @@ import Home from './pages/Home';
 import Women from './pages/Women';
 import Tawaiffs from './pages/Tawaiffs';
 import Spies from './pages/Spies';
-import Tribals from './pages/Tribals';
 import AboutUs from './pages/AboutUs';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -28,7 +27,6 @@ function App() {
           <Route path="/women" element={<Women />} />
           <Route path="/tawaiffs" element={<Tawaiffs />} />
           <Route path="/spies" element={<Spies />} />
-          <Route path="/tribals" element={<Tribals />} />
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
       <Footer/>
