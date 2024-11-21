@@ -123,7 +123,7 @@ function Header() {
         </Link>
         
         <Link to="/women" className="nav-link">ACTIVIST</Link>
-        <Link to="/tawaiffs" className="nav-link">TAWAIFFS</Link>
+        <Link to="/tawaiffs" className="nav-link">TAWAIFS</Link>
         <Link to="/spies" className="nav-link">SPIES</Link>
         <Link to="/scientists" className="nav-link">SCIENTISTS</Link>
         <Link to="/about-us" className="nav-link">ABOUT US</Link>
