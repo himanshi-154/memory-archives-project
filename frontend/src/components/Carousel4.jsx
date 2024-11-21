@@ -45,6 +45,9 @@ const Carousel4 = () => {
     dots: true, // Show navigation dots
     infinite: true, // Infinite looping
     speed: 500, // Transition speed
+    autoplay: true,
+    autoplaySpeed: 1500,
+    easing: 'linear',
     slidesToShow: 3, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll at a time
     responsive: [
