@@ -33,20 +33,20 @@ import React from "react";
 const Team = [
     {
         name: "Dr. Payel Pal",
-        role: "Professor (Department of Humanities and Social Sciences at LNMIIT)",
-        // image: manju,
+        role: "Associate Professor (Department of Humanities and Social Sciences at LNMIIT)",
+        
     },
     {
         name: "Himanshi Sharma(21ucc052)",
         role: "Full-stack Developer",
         description: "4th year student at LNMIIT",
-        // image: medhansh,
+        
     },
     {
         name: "Lokesh Dandwani(21ucs118)",
         role: "Front-end Developer",
         description: "4th year student at LNMIIT",
-        // image: devansh,
+        
     },
 ];
 
