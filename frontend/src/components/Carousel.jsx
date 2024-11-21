@@ -118,7 +118,7 @@ const Carousel = () => {
 
 
   return (
-    <div className="slider-container">
+    <div  className="slider-container">
       <Slider {...settings} >
         {/* <div className="post-card"> */}
         {posts.map((post) => (

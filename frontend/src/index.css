@@ -50,6 +50,7 @@ body {
   font-family: Alegreya;
   place-items: center;
   min-width: 100px;
+  
 }
 
 h1 {
@@ -61,8 +62,8 @@ h1 {
 
 .slider-container {
   width: 100%;
-  margin: auto;
-  gap: 10px;
+  margin: auto; 
+   gap: 10px;
   padding: 25px 0;
 }
 
@@ -84,7 +85,7 @@ h1 {
 }
 
 .post-image {
-  width: 50%; /* Adjust the width of the image */
+  width: 300px; /* Adjust the width of the image */
   height: auto;
   border-radius: 8px;
   object-fit: cover; /* Ensure the image maintains its aspect ratio */
