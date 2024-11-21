@@ -47,6 +47,8 @@ const Carousel = () => {
       },
     ],
   };
+  const sliderContainer = document.querySelector('.slider-container');
+
 
   return (
     <div className="slider-container">

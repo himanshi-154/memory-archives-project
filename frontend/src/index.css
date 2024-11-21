@@ -56,11 +56,9 @@ h1 {
   margin: 0px;
   font-size: 3.4em;
   color: rgb(117, 88, 29);
-  font-family: Garamond;
+  font-family: Alegreya;
 }
 .slider-container {
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scroll-snap-type: x mandatory;
   width: 100%;
   margin: auto;
   gap: 10px;

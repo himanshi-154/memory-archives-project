@@ -116,7 +116,7 @@ function Header() {
   return (
     <header className="p-4 border-b border-gray-300 flex justify-between items-center">
 
-      <h1 className="text-4xl">MEMORY & ARCHIVES PROJECT</h1>
+      <h1 className="text-4xl">HER Stories: From CHAINS to CHANGE</h1>
       <nav className="nav">
         <Link to="/" className="nav-link-0">
           <FaHome className="icon" />
@@ -125,21 +125,11 @@ function Header() {
         <Link to="/women" className="nav-link">WOMEN</Link>
         <Link to="/tawaiffs" className="nav-link">TAWAIFFS</Link>
         <Link to="/spies" className="nav-link">SPIES</Link>
-        <Link to="/tribals" className="nav-link">TRIBALS</Link>
+        <Link to="/tribals" className="nav-link">SCIENTISTS</Link>
         <Link to="/about-us" className="nav-link">ABOUT US</Link>
-
-      <h1  className="text-4xl">MEMORY & ARCHIVES PROJECT</h1>
-      <nav className="space-x-4">
-          <a className="pop-text"><Link to="/">Home</Link></a>
-          <a><Link to="/women">Women</Link></a>
-          <a><Link to="/tawaiffs">Tawaiffs</Link></a>
-          <a><Link to="/spies">Spies</Link></a>
-          <a><Link to="/about-us">About Us</Link></a>
-
-        
       </nav>
     </header>
-  );
+  );
 }
 
 export default Header;
