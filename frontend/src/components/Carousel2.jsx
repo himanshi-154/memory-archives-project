@@ -43,6 +43,9 @@ const Carousel2 = () => {
     infinite: true, // Infinite looping
     speed: 500, // Transition speed
     slidesToShow: 3, // Number of slides to show at once
+    autoplay: true,
+    autoplaySpeed: 1500,
+    easing: 'linear',
     slidesToScroll: 1, // Number of slides to scroll at a time
     responsive: [
       {

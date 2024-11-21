@@ -122,7 +122,7 @@ function Header() {
           <FaHome className="icon" />
         </Link>
         
-        <Link to="/women" className="nav-link">WOMEN</Link>
+        <Link to="/women" className="nav-link">ACTIVIST</Link>
         <Link to="/tawaiffs" className="nav-link">TAWAIFFS</Link>
         <Link to="/spies" className="nav-link">SPIES</Link>
         <Link to="/scientists" className="nav-link">SCIENTISTS</Link>
